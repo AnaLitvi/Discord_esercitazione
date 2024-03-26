@@ -1,0 +1,65 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  border-color: rgb(64, 78, 237);
+} 
+.bg_white{background-color: white;
+}
+.bg_black{
+   background-color: #23272a;
+   color: white;
+ }
+.bg_blue{
+    background-color: rgb(64, 78, 237);
+    color: white;
+}
+
+.titleImp{
+   font-family: "Russo One", sans-serif;
+font-weight: 400;
+}
+ .title_secondary{
+   font-size: 50px;
+ }
+.container_intro_hader{ 
+    width: 500%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+ }
+
+ .custom_button{
+   border: none;
+   padding: 15px 26px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 50px;
+ }
+ .centre{
+   text-align: center;
+}
+ .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+.container2{
+  display:flex;
+  flex-wrap: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
