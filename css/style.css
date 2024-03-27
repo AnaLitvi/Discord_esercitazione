@@ -4,32 +4,36 @@
     padding: 0;
     text-align: center;
 }
-hr { 
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
-  border-color: rgb(64, 78, 237);
-} 
-.bg_white{background-color: white;
-}
+/*------------color-----------*/
+
+
+.bg_white{background-color: white;}
 .bg_black{
-   background-color: #23272a;
-   color: white;
- }
+  background-color: #23272a;
+  color: white;}
+
 .bg_blue{
-    background-color: rgb(64, 78, 237);
-    color: white;
+  background-color: rgb(64, 78, 237);
+  color: white;}
+
+.bg_light_gray{background-color: rgb(228, 228, 228);}
+
+
+.twhite{color: white;}
+
+.t_blue{color:rgb(64, 78, 237)}
+
+hr{
+  border: 1px solid  rgb(64, 78, 237);
+  margin:50px ;
 }
 
+/*------------b -----------*/
 .titleImp{
-   font-family: "Russo One", sans-serif;
-font-weight: 400;
+  font-weight: 600px;
+  font-size: 70px;
 }
- .title_secondary{
+.title_secondary{
    font-size: 50px;
  }
 .container_intro_hader{ 
@@ -42,24 +46,101 @@ font-weight: 400;
 
  .custom_button{
    border: none;
-   padding: 15px 26px;
+   padding: 8px 25px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
-   font-size: 16px;
-   border-radius: 50px;
+   font-size: 14px;
+   border-radius: 30px;
  }
- .centre{
-   text-align: center;
+ .custom_button2{
+  border: none;
+  padding: 20px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 30px;
 }
- .container{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+ .text_center{
+   text-align: center;
  }
-.container2{
-  display:flex;
-  flex-wrap: row;
+
+/* ------------------- WIDTH & HEIGHT ------------------- */
+.w_150px {width: 150px;}
+
+.w_50 {width: 50%;}
+
+.w_30{width: 30%;}
+
+/* ------------- MARGIN & PADDING --------------------*/
+.p_10 {padding: 10px;}
+
+.p_20 {padding: 20px;}
+
+.p_50 {padding: 50px;}
+
+.p_70 {padding: 70px;}
+
+.p_100 {padding: 100px;}
+
+.m_20 {margin: 20px;}
+
+.m_50{
+  margin:50px 25px;
+
+}
+
+.m_auto {margin: auto;}
+
+
+
+/*--------- TEXT ALIGNMENTS ---------- */
+.text_center {
+  text-align: center;
+}
+
+.title_important {
+  font-family: "Russo One", sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+}
+
+.p_text{
+  font-family: "Russo One", sans-serif;
+  font-weight: 20;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.footer_box{
+  container: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
+  align-content: space-around;
 }
+  /* --------------- UTILITY FLEX ----------- */
+
+.flex {
+  display: flex;
+}
+
+.flex_reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.space_evenly {justify-content: space-evenly;}
+
+.space_between{
+  justify-content: space-between;
+  margin:50px;
+}
+
+.align_items_center {align-items: center;}
+
+.gap_20 {gap: 20px;}
+
+
